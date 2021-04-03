@@ -24,13 +24,17 @@ button {
   padding: 1% 4%;
   border-radius: 5%;
   border:none;
+  outline:none;
   transition: 0.3s
 }
 
 button:hover{
   background-color: #fff;
   color:#2f5d62;
+}
 
+button:onclick{
+  border:none;
 }
 
 .container{
